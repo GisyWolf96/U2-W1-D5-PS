@@ -1,0 +1,76 @@
+html,
+body {
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #ffc017;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+}
+
+nav img {
+    margin-left: 12em;
+    width: 10%;
+}
+
+#container-nav {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    margin-right: 12em;
+}
+
+#container-nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#container-nav ul li {
+    cursor: pointer;
+    margin-right: 1.8em;
+}
+
+#container-nav button {
+    background-color: black;
+    color: white;
+    padding: 0.7em 1.2em;
+    border-radius: 30px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+#titolo {
+    display: flex;
+    margin-left: 14em;
+    justify-content: space-between;
+}
+
+#title .text-left {
+    margin-top: 4em;
+    font-size: 1.5em;
+}
+
+#title .text-left h1 {
+    font-family: "Spectral", serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+#titolo svg {
+    margin-top: 0;
+    margin-right: 0;
+    max-width: 45%;
+    min-width: 30%;
+}
+
+
